@@ -6,4 +6,6 @@
 /* global $ */
 
 
-
+//$("button#input").click(function(input) {});
+$("button").click(function() {$("#userChoice").text($("#input").val())});
+//$("button").click(function() {console.log($("#input").val())});
